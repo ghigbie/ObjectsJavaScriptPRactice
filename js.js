@@ -38,3 +38,24 @@ dog["name"] = "Tater";
 
 console.log(dog);
 
+//we can make an empty object and then add to it
+var person = {};
+person.name = "Joe";
+person.age = 23;
+person.city = "LA";
+
+//object literla notation
+var person = {
+	name: "Travis",
+	age: 21,
+	city: "LA"
+};
+
+//another way of initializing an Object
+var person = new Object();
+person.name = "Smitty";
+person.age = 24;
+person.city = "Seattle";
+
+//objects can hold all sorts of data, and even other objects
+
