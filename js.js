@@ -86,10 +86,18 @@ var posts = [
 		author: "Cat Luvr"
 		comments: ["<3" , "terrible post"]
 	}
-]
+];
 posts;
 console.log(posts); //shows objects
 console.log(posts[1].comments[1]); // = terrible posts
 
-
-
+var someObject = {
+	friends: [
+		{name: "Malfoy"},
+		{name: "Crabble"},
+		{name: "Goyle"},
+	],
+	color: "baby blue",
+	isEvil: true
+};
+console.log(someObject.friends[0].name); //this will retrieve "Malfroy"
