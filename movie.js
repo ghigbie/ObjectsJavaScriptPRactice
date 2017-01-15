@@ -26,10 +26,16 @@ frozen.name = "Frozen";
 frozen.rating = 4;
 frozen.hasWatched = false;
 
-var moviesArray = [moana, badSanta, paths, littleSun, frozen];
+var movies = [moana, badSanta, paths, littleSun, frozen];
 
 listMovies();
 
 function listMovies(){
-
+	for(var a = 0; a < movies.length; a++){
+		if(hasWatched){
+			console.log(`You have watched "${movies[a].title}" - ${movies[a].rating} stars`);
+		}else{
+			console.log(`You have not seen "${movies[a].title}" - ${movies[a].rating} stars`);
+		}
+	}
 }
