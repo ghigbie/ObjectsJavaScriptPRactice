@@ -25,3 +25,11 @@ var frozen = new Object();
 frozen.name = "Frozen";
 frozen.rating = 4;
 frozen.hasWatched = false;
+
+var moviesArray = [moana, badSanta, paths, littleSun, frozen];
+
+listMovies();
+
+function listMovies(){
+
+}
