@@ -74,3 +74,22 @@ console.log(dog.name);
 dogs.age = 4;
 dog.breed = "Black Lab"
 
+//array of objects
+var posts = [
+	{
+		title: "Cats are mediocre",
+		author: "Colt",
+		comments: ["awesome post!" , "terrible post"]
+	}
+	{
+		title: "Cats are awesome",
+		author: "Cat Luvr"
+		comments: ["<3" , "terrible post"]
+	}
+]
+posts;
+console.log(posts); //shows objects
+console.log(posts[1].comments[1]); // = terrible posts
+
+
+
