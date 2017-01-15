@@ -20,3 +20,8 @@ var littleSun = new Object();
 littleSun.name = "Little Miss Sunshine";
 littleSun.rating = 4;
 littleSun.hasWatched = true;
+
+var frozen = new Object();
+frozen.name = "Frozen";
+frozen.rating = 4;
+frozen.hasWatched = false;
