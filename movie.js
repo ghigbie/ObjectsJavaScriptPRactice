@@ -33,9 +33,9 @@ listMovies();
 function listMovies(){
 	for(var a = 0; a < movies.length; a++){
 		if(movies[a].hasWatched){
-			console.log(`You have watched "${movies[a].title}" - ${movies[a].rating} stars`);
+			console.log(`You have watched "${movies[a].name}" - ${movies[a].rating} stars`);
 		}else{
-			console.log(`You have not seen "${movies[a].title}" - ${movies[a].rating} stars`);
+			console.log(`You have not seen "${movies[a].name}" - ${movies[a].rating} stars`);
 		}
 	}
 }
