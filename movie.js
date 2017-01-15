@@ -32,7 +32,7 @@ listMovies();
 
 function listMovies(){
 	for(var a = 0; a < movies.length; a++){
-		if(hasWatched){
+		if(movies[a].hasWatched){
 			console.log(`You have watched "${movies[a].title}" - ${movies[a].rating} stars`);
 		}else{
 			console.log(`You have not seen "${movies[a].title}" - ${movies[a].rating} stars`);
