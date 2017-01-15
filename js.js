@@ -49,7 +49,7 @@ var person = {
 	name: "Travis",
 	age: 21,
 	city: "LA"
-};
+}
 
 //another way of initializing an Object
 var person = new Object();
@@ -58,4 +58,18 @@ person.age = 24;
 person.city = "Seattle";
 
 //objects can hold all sorts of data, and even other objects
+//array is a special kind of object with key value pairs or numbers and other items
+var dogs = ["Rusty", "Lucky", "Bubby"]; //array compared to object
+console.log(dogs[1]);
+dogs.push("Wyatt");
+
+
+var dog = {
+	name: "Bubba",
+	breed: "Lab"
+}
+
+console.log(dog["name"]); //this is more array-like
+console.log(dog.name);
+dogs.age = 4;
 
