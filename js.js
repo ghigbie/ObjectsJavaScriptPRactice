@@ -62,7 +62,7 @@ person.city = "Seattle";
 var dogs = ["Rusty", "Lucky", "Bubby"]; //array compared to object
 console.log(dogs[1]);
 dogs.push("Wyatt");
-
+dogs[1] = "Lucy"; //reassign a value
 
 var dog = {
 	name: "Bubba",
@@ -72,4 +72,5 @@ var dog = {
 console.log(dog["name"]); //this is more array-like
 console.log(dog.name);
 dogs.age = 4;
+dog.breed = "Black Lab"
 
