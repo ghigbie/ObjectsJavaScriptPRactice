@@ -61,6 +61,8 @@ var moviesArray = {
 	},
 };
 
+listMovies2();
+
 funtion listMovies2(){
 	for(var i = 0; i < moviesArray.length; i++){
 		if(moviesArray[i].hasWatched){
