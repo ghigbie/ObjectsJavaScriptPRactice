@@ -22,7 +22,6 @@ littleSun.rating = 4;
 littleSun.hasWatched = true;
 
 var frozen = new Object();
-ç
 
 var movies = [moana, badSanta, paths, littleSun, frozen];
 
