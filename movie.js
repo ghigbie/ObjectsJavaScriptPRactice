@@ -44,9 +44,9 @@ var moviesArray = [
 		hasWatched: true
 	},
 	{
-		paths.name = "Paths of Glory";
-		paths.rating = 5,
-		paths.hasWatched = true;
+		name: "Paths of Glory",
+		rating: 5,
+		hasWatched: true
 	},
 	{
 		name: "Bad Santa",
@@ -62,7 +62,7 @@ var moviesArray = [
 
 listMovies2();
 
-funtion listMovies2(){
+function listMovies2(){
 	for(var i = 0; i < moviesArray.length; i++){
 		if(moviesArray[i].hasWatched){
 			console.log(`You have watched "${moviesArray[i].name}" - ${moviesArray[i].rating} stars`);
