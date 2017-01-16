@@ -75,6 +75,12 @@ console.log("//////////");
 //anoher function
 
 movies.forEach(function(movie){
+	buildString(movie);
+});
+
+console.log("///////////////");
+
+function buildString(movie){
 	var result = "You have ";
 	if(movie.hasWatched){
 		result += "watched ";
@@ -84,4 +90,4 @@ movies.forEach(function(movie){
 	result += "\"" + movie.name + "\" - ";
 	result += movie.rating + " stars";
 	console.log(result);
-});
+}
