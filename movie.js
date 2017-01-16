@@ -25,7 +25,7 @@ littleSun.hasWatched = true;
 var movies = [moana, badSanta, paths, littleSun]
 
 listMovies();
-
+console.log("//////////");
 function listMovies(){
 	for(var a = 0; a < movies.length; a++){
 		if(movies[a].hasWatched){
@@ -51,14 +51,11 @@ var moviesArray = [
 		name: "Bad Santa",
 		rating: 5,
 		hasWatched: true
-	},
-	{
-		name: "Bad Santa",
-		rating: 5,
-		hasWatched: true
-	},
+	}
 ];
 
+listMovies2();
+console.log("//////////");
 
 function listMovies2(){
 	for(var i = 0; i < moviesArray.length; i++){
@@ -71,7 +68,6 @@ function listMovies2(){
 
 }
 
-console.log("//////////");
 //anoher function
 
 movies.forEach(function(movie){
