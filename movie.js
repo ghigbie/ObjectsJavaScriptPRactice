@@ -71,3 +71,19 @@ function listMovies2(){
 	}
 
 }
+
+console.log("//////////");
+//anoher function
+
+movies.forEach(function(movie){
+	var result = "You have ";
+	if(moviesArrray.hasWatched){
+		result += "watched ";
+	}else{
+		result += "not seen ";
+	}
+	result += "\"" + movie.name + "\" - ";
+	result += movie.rating + " stars";
+	console.log();
+
+});
