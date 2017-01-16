@@ -22,9 +22,7 @@ littleSun.rating = 4;
 littleSun.hasWatched = true;
 
 var frozen = new Object();
-frozen.name = "Frozen";
-frozen.rating = 4;
-frozen.hasWatched = false;
+ç
 
 var movies = [moana, badSanta, paths, littleSun, frozen];
 
@@ -38,4 +36,31 @@ function listMovies(){
 			console.log(`You have not seen "${movies[a].name}" - ${movies[a].rating} stars`);
 		}
 	}
+}
+
+var mvoiesArray = {
+	{
+		name: "Moana",
+		rating: 5,
+		hasWatched: true
+	},
+	{
+		paths.name = "Paths of Glory";
+		paths.rating = 5,
+		paths.hasWatched = true;
+	},
+	{
+		name: "Bad Santa",
+		rating: 5,
+		hasWatched: true
+	},
+	{
+		name: "Bad Santa",
+		rating: 5,
+		hasWatched: true
+	},
+};
+
+funtion listMovies2(){
+	
 }
