@@ -71,7 +71,7 @@ function listMovies2(){
 //anoher function
 
 movies.forEach(function(movie){
-	buildString(movie);
+	console.log(buildString(movie));
 });
 
 console.log("///////////////");
@@ -85,5 +85,5 @@ function buildString(movie){
 	}
 	result += "\"" + movie.name + "\" - ";
 	result += movie.rating + " stars";
-	console.log(result);
+	return result;
 }
