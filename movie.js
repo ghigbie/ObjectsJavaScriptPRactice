@@ -21,9 +21,8 @@ littleSun.name = "Little Miss Sunshine";
 littleSun.rating = 4;
 littleSun.hasWatched = true;
 
-var frozen = new Object();
 
-var movies = [moana, badSanta, paths, littleSun, frozen];
+var movies = [moana, badSanta, paths, littleSun]
 
 listMovies();
 
