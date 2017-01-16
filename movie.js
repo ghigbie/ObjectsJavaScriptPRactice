@@ -37,7 +37,7 @@ function listMovies(){
 	}
 }
 
-var moviesArray = {
+var moviesArray = [
 	{
 		name: "Moana",
 		rating: 5,
@@ -58,7 +58,7 @@ var moviesArray = {
 		rating: 5,
 		hasWatched: true
 	},
-};
+];
 
 listMovies2();
 
