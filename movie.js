@@ -38,7 +38,7 @@ function listMovies(){
 	}
 }
 
-var mvoiesArray = {
+var moviesArray = {
 	{
 		name: "Moana",
 		rating: 5,
@@ -62,5 +62,12 @@ var mvoiesArray = {
 };
 
 funtion listMovies2(){
-	
+	for(var i = 0; i < moviesArray.length; i++){
+		if(moviesArray[i].hasWatched){
+			console.log(`You have watched "${moviesArray[i].name}" - ${moviesArray[i].rating} stars`);
+		}else{
+			console.log(`You have not seen "${moviesArray[i].name}" - ${moviesArrray[i].rating} stars`);
+		}
+	}
+
 }
