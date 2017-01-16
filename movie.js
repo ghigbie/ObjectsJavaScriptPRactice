@@ -59,7 +59,6 @@ var moviesArray = [
 	},
 ];
 
-listMovies2();
 
 function listMovies2(){
 	for(var i = 0; i < moviesArray.length; i++){
@@ -77,13 +76,12 @@ console.log("//////////");
 
 movies.forEach(function(movie){
 	var result = "You have ";
-	if(moviesArrray.hasWatched){
+	if(movie.hasWatched){
 		result += "watched ";
 	}else{
 		result += "not seen ";
 	}
 	result += "\"" + movie.name + "\" - ";
 	result += movie.rating + " stars";
-	console.log();
-
+	console.log(result);
 });
